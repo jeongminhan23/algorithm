@@ -1,10 +1,8 @@
 https://school.programmers.co.kr/learn/courses/30/lessons/120806
 
-fun main() {
-    class Solution {
+class Solution {
         fun solution(num1: Int, num2: Int): Int {
             var answer: Int = 1000 * num1 / num2
             return answer
         }
     }
-}
