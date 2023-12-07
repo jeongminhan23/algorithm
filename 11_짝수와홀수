@@ -1,0 +1,12 @@
+https://school.programmers.co.kr/learn/courses/30/lessons/12937
+
+class Solution {
+    fun solution(num: Int): String {
+        var answer = num%2
+        if (answer == 0){
+            return "Even"
+        } else {
+            return "Odd"
+        }
+    }
+}
