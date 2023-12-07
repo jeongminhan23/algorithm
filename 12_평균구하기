@@ -1,0 +1,7 @@
+https://school.programmers.co.kr/learn/courses/30/lessons/12937
+
+class Solution {
+    fun solution(arr: IntArray): Double {
+        return arr.average()
+    }
+}
