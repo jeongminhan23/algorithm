@@ -1,0 +1,11 @@
+https://school.programmers.co.kr/learn/courses/30/lessons/87389
+
+class Solution {
+    fun solution(n: Int): Int {
+        var x = 2
+        while (n % x != 1) {
+            x++
+        }
+        return x
+    }
+}
