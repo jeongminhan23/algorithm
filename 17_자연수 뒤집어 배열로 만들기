@@ -1,0 +1,7 @@
+https://school.programmers.co.kr/learn/courses/30/lessons/12932?language=kotlin
+
+class Solution {
+    fun solution(n: Long): IntArray {
+        return n.toString().reversed().map {it.toString().toInt()}.toIntArray()
+    }
+}
