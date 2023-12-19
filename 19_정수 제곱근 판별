@@ -1,0 +1,14 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/12934
+
+import kotlin.math.sqrt
+
+class Solution {
+    fun solution(n: Long): Long {
+        val x = sqrt(n.toDouble()).toLong()
+        if (n == x * x) {
+            return (x + 1) * (x + 1)
+        } else {
+            return -1
+        }
+    }
+}
