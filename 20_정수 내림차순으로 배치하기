@@ -1,0 +1,7 @@
+// 문제URL: https://school.programmers.co.kr/learn/courses/30/lessons/12933
+
+class Solution {
+    fun solution(n: Long): Long {
+    	return n.toString().toCharArray().sortedDescending().joinToString("").toLong()
+    	}
+    }
