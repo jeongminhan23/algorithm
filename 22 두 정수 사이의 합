@@ -1,0 +1,17 @@
+https://school.programmers.co.kr/learn/courses/30/lessons/12912
+
+class Solution {
+    fun solution(a: Int, b: Int): Long {
+            var start = a
+            var end = b
+        if (a>b){
+            start = b
+            end = a
+        }
+            var sum:Long= 0
+            for (i in start..end){
+                sum += i
+            }
+            return sum
+    }
+}
